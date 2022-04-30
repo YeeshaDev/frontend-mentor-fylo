@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* { 
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+    font-family:'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo {
+   width:7rem;
+   margin-left: 20px;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.nav-list ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: hsl(238, 22%, 44%);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.first-class {
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+}
+.wrap {
+    margin: 70px 20px 50px 20px;
+    color: hsl(239, 36%, 29%);
+    white-space: nowrap;
+}
+
+h2.location {
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+p.location-sub {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color:hsl(243, 87%, 12%);
+}
+
+input {
+    margin: 15px 0;
+    height:40px;
+    border: 1px solid hsl(224, 93%, 58%);
+    outline: none;
+    text-align: center;
+}
+
+input::placeholder{
+    opacity:0.5;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    color: hsl(239, 36%, 29%);
+
+}
+
+button {
+    padding: 10px;
+    background:  hsl(224, 93%, 58%);
+    text-decoration: none;
+    color:#fff;
+    font-size: 0.8rem;
+    border: 2px solid hsl(224, 93%, 58%);
+    overflow: hidden;
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin: 10px 5px 0px 10px;
+}
+.flex > div {
+    display:flex;
+    flex: 1;
+    
+}
+
+.image-1 {
+margin-left: 180px;
+}
+
+.image-1 img{
+    width: 63%;
+}
+
+.second-class {
+    font-size: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 5rem;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25% 30% 0 0;
+    margin-top: 5rem;
+    padding: 1.5rem;
+}
+
+.content {
+   white-space: nowrap; 
+   color: hsl(243, 87%, 12%);
+   padding: 1.5rem;
+   margin: 5rem 0;
+}
+
+h2.insight {
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+
+p.insight-sub {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.content a {
+color: hsl(170, 45%, 43%);
+margin-top: 1.5rem;
+display: inline-flex;
+font-size: 0.9rem;
+font-weight: 700;
+}
+
+.image-2 {
+    margin-top: 3rem;
+    margin-left: -20px;
+}
+
+.image-2 img{
+    width: 68%;
+}
+
+.card {
+    background:white;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    margin: 20px;
+}
+
+.quote {
+    width: 1.5rem;
+}
+
+.card p {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hero img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.text {
+ display: block;
+ margin-left: 10px;
+}
+
+.text h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+p.avatar {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.third-class {
+    background: hsl(238, 22%, 44%);
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2.access {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2.7rem;
+}
+
+p.access-sub {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.field input[type=text] {
+    border: none;
+    width: 300px;
+}
+
+.field a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: hsl(224, 93%, 58%);
+    color: #fff;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+    width: 150px;
+}
+
+.field a:hover {
+    background:hsl(226, 42%, 64%);
+}
+
+footer {
+    background: hsl(243, 87%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.footer-wrap {
+    margin-top: 4.5rem;
+    display: contents;
+}
+
+.footer-logo {
+    width: 4rem;
+    display: block;
+}
+
+.first > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0;
+}
+.phone-icon, .email-icon {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.phone,.email {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.email {
+    margin-right: 25px;
+}
+
+.second {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 3.3rem;
+}
+
+.third {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 2.5rem;
+}
+
+.socials span {
+    font-size: 0.8rem;
+    margin: 10px;
+    margin-top: 2rem;
+    border: 1px solid #fff;
+    padding: 6px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.socials span:hover {
+    color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+
+    .logo {
+        width: 5rem;
+    }
+    
+    .nav-list ul li a {
+        font-size: 12px;
+    }
+    .first-class {
+        display:flex;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+
+    p.location-sub {
+        font-size: 0.8rem;
+    }
+
+    .wrap {
+    margin-top: 5rem;
+    text-align: center;
+    }
+
+    .image-1 {
+    margin-left: -40px;
+
+    }
+
+    .image-1 img {
+        width: 60%;
+    }
+
+    input {
+        width: 300px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    button {
+        display: block;
+        margin: auto;
+        width:300px;
+        border-radius: 0;
+ }
+
+    .second-class {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: -5px;
+        border-radius: 40% 30% 0 0;
+    }
+
+    .image-2 {
+        padding: 20px;
+    }
+
+    .third-class {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .field input[type=text] {
+        width: 250px;
+    }
+
+    .field a {
+        margin:auto;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .first > div {
+        align-items:flex-start;
+        gap: 0;
+
+    }
+
+    .phone {
+        margin-right: 380px;
+    }
+
+    .email {
+        margin-right: 405px;
+    }
+
+    .socials {
+        text-align: center;
+    }
+
+    .socials span {
+        margin: 2px;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:425px){
+    .container {
+        padding: 3rem;
+    }
+
+    .logo {
+        width: 3.5rem;
+        margin-left: -30px;
+    }
+
+    .nav-list ul {
+        margin-left:25px;
+        margin-top: -15px;
+    }
+
+    .nav-list ul li a{
+    font-size: 0.6rem;
+    white-space: nowrap;
+    gap:10px
+    }
+
+    .first-class {
+       overflow: hidden;
+       display:flex;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+
+    .wrap {
+        margin-top: 5rem;
+        text-align: center;
+        }
+    
+    .image-1 {
+        margin-left: -40px;
+    
+        }
+    
+    .image-1 img {
+            width: 60%;
+        }
+
+        .image-2 {
+            margin-top: 1rem;
+            padding: 1.5rem;
+        }
+
+        .image-2 img {
+            width: 100%;
+        }
+
+    input {
+        width: 200px;
+        text-align: center;
+    }
+    button {
+        display:block;
+        margin: 0 auto;
+        width: 200px;
+        border-radius: 0;
+
+    }
+    .second-class {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 5px;
+        border-radius: 20% 20% 0 0;
+    }
+   
+    h2.insight {
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: -25px;
+    
+    }
+    
+    p.insight-sub {
+        font-size: 0.5rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    
+    
+    .third-class {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    p.access-sub {
+        font-size: 10px;
+
+    }
+
+    .field input[type=text] {
+        width: 250px;
+    }
+
+    .field a {
+        margin:auto;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .first > div {
+        align-items:flex-start;
+        gap: 5px;
+
+    }
+
+    .phone {
+        margin-right: 480px;
+        white-space: nowrap;
+    }
+
+    .email {
+        margin-right: 405px;
+    }
+
+    .socials {
+        text-align: center;
+    }
+
+    .socials span {
+        margin: 2px;
+    }
+
+}
